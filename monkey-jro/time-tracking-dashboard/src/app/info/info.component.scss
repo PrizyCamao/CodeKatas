@@ -1,0 +1,34 @@
+$radius: 6px;
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+    grid-row: 3;
+}
+
+.box {
+    background-color: green;
+    border-radius: $radius;
+    width: 100%;
+    height: 90px;
+}
+
+.top {
+    background-image: url("../../assets/images/icon-work.svg");    
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: 90% 20% ;
+    height: 20%;
+}
+
+.bottom {
+    border-radius: $radius;
+    height: 80%;
+    background-color: darkblue;
+}
+
+.Play {
+    // background-image: url("../../assets/images/.svg");
+    background-color: green;
+}

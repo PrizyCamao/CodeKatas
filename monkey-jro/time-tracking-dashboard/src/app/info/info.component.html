@@ -1,0 +1,11 @@
+
+<div class="wrapper">
+    <div class="elem" *ngFor="let card of data">
+        <div class="box" [ngClass]="card.title">
+            <div class="top"> {{card.title}} </div>
+            <div class="bottom">
+                <div></div>
+            </div>
+        </div>
+    </div>
+</div>
