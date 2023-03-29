@@ -1,0 +1,20 @@
+<div class="card-wrapper" [style.background-color]="bgColor">
+  <div class="card-icon-container">
+    <img [src]="'assets/images/icon-' + icon + '.svg'" />
+  </div>
+  <div class="card-content-container">
+    <div class="card-content">
+      <div class="card-titlebar">
+        <div class="card-title-label">{{ title }}</div>
+        <div class="card-title-dots">...</div>
+      </div>
+      <div class="inner-content">
+        <div class="hours">{{ hours }}hrs</div>
+        <div class="hours-last-week">
+          <span class="last-week-title">Last Week - </span>
+          <span class="last-week-value">{{ lastWeekHours }}hrs</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
