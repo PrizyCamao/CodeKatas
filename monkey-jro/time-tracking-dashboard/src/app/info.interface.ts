@@ -15,8 +15,4 @@ export interface InfoData {
             previous: number,
         },
     }
-    style: {
-        color: string,
-        img: string,
-    }
 }

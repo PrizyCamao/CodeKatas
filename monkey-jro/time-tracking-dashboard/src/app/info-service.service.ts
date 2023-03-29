@@ -22,9 +22,6 @@ export class InfoServiceService {
               previous: 128,
             },
           },
-          style: {
-            color: 
-          }
         },
 
         {
