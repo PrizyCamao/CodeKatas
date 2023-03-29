@@ -1,0 +1,13 @@
+<div class="menu">
+  <div class="info">
+    <img src="../../assets/images/image-jeremy.png" alt="Jeremy Pic. He ugly">
+    <h5>Report for</h5>
+    <h1>{{ name }}</h1>
+  </div>
+
+  <div class="selection">
+    <div (click)="setTimeframe(timeframe.Daily)" [ngClass]="{ 'selected': currentTimeframe === timeframe.Daily }" class="pointer">Daily</div>
+    <div (click)="setTimeframe(timeframe.Weekly)" [ngClass]="{ 'selected': currentTimeframe === timeframe.Weekly }" class="pointer">Weekly</div>
+    <div (click)="setTimeframe(timeframe.Monthly)" [ngClass]="{ 'selected': currentTimeframe === timeframe.Monthly }" class="pointer">Monthly</div>
+  </div>
+</div>

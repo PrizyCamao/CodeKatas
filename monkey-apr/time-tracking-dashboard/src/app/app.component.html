@@ -1,0 +1,9 @@
+<div class="app">
+  <app-menu name="Jeremy Robson"></app-menu>
+
+  <div class="cards">
+    <ng-container *ngFor="let card of dataIntern">
+      <app-card [card]="card"></app-card>
+    </ng-container>
+  </div>
+</div>

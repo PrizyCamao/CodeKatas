@@ -1,0 +1,18 @@
+.card {
+  width: 250px;
+  padding-top: 40px;
+  border-radius: var(--spacer);
+  margin: var(--spacer);
+
+  .container {
+    border-radius: inherit;
+    background-color: var(--darkBlue);
+    color: white;
+
+    padding: var(--spacer);
+  }
+
+  &.background {
+    background-color: grey;
+  }
+}
