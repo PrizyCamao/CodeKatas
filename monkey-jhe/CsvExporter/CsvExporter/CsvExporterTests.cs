@@ -1,14 +1,11 @@
-using Backend.CsvExporter;
-using Xunit;
-
-namespace CsvExporterTest
+﻿namespace CsvExporter
 {
     public class CsvExporterTests
     {
         [Fact]
         public void Test1()
         {
-            Exporter exporter = new Exporter();
+            CsvExporter exporter = new CsvExporter();
 
             var headers = Enumerable.Range(0, 10).Select(i => "Spalte" + i.ToString()).ToArray();
             var rows = Enumerable.Range(0, 1000000).Select(row =>
@@ -16,29 +13,29 @@ namespace CsvExporterTest
             ).ToArray();
 
             var result = exporter.ExportToCsv(headers, rows);
-            File.WriteAllText("output\\test1.csv", result);
+            File.WriteAllText("test1.csv", result);
         }
 
         [Fact]
         public void Test2()
         {
-            Exporter exporter = new Exporter();
+            CsvExporter exporter = new CsvExporter();
 
             var cars = CreateCars().ToArray();
 
             var result = exporter.ExportToCsv(cars);
-            File.WriteAllText("output\\test2.csv", result);
+            File.WriteAllText("test2.csv", result);
         }
 
         [Fact]
         public void Test3()
         {
-            Exporter exporter = new Exporter();
+            CsvExporter exporter = new CsvExporter();
 
             var cars = CreateCars();
 
             var result = exporter.ExportToCsv(cars);
-            File.WriteAllLines("output\\test3.csv", result);
+            File.WriteAllLines("test3.csv", result);
         }
 
         private IEnumerable<Car> CreateCars()
