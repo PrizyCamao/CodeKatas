@@ -1,0 +1,9 @@
+.dashboard {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 250px);
+  gap: 20px;
+  app-summary {
+    grid-row: 1 / span 2;
+  }
+}
