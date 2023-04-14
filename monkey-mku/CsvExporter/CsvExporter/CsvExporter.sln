@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvExporter", "CsvExporter\CsvExporter.csproj", "{D3577302-0A65-42EA-80B4-325EA88E5DA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvExporterTests", "CsvExporterTests\CsvExporterTests.csproj", "{DDDB345B-E936-453F-8E71-CD3B1B4995B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3577302-0A65-42EA-80B4-325EA88E5DA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3577302-0A65-42EA-80B4-325EA88E5DA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3577302-0A65-42EA-80B4-325EA88E5DA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3577302-0A65-42EA-80B4-325EA88E5DA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDB345B-E936-453F-8E71-CD3B1B4995B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDB345B-E936-453F-8E71-CD3B1B4995B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDB345B-E936-453F-8E71-CD3B1B4995B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDB345B-E936-453F-8E71-CD3B1B4995B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4085509D-F601-4440-9940-F4E1BE150252}
+	EndGlobalSection
+EndGlobal
