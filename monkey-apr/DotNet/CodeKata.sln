@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearchovic", "BinaryS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HappyNumbers", "HappyNumbers\HappyNumbers.csproj", "{AA549523-24CE-4BA5-923E-DC9E9CCB2587}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseMineSweep", "ReverseMineSweep\ReverseMineSweep.csproj", "{83BC75A7-F0B6-4597-B46A-89A3BD3382B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReverseMineSweep", "ReverseMineSweep\ReverseMineSweep.csproj", "{83BC75A7-F0B6-4597-B46A-89A3BD3382B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordered Jobs", "Ordered Jobs\Ordered Jobs.csproj", "{1613BC48-F952-4FC4-90E0-28ADA04AEA0B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{83BC75A7-F0B6-4597-B46A-89A3BD3382B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83BC75A7-F0B6-4597-B46A-89A3BD3382B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83BC75A7-F0B6-4597-B46A-89A3BD3382B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1613BC48-F952-4FC4-90E0-28ADA04AEA0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1613BC48-F952-4FC4-90E0-28ADA04AEA0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1613BC48-F952-4FC4-90E0-28ADA04AEA0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1613BC48-F952-4FC4-90E0-28ADA04AEA0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
