@@ -1,0 +1,7 @@
+<div class="dashboard">
+  <app-summary></app-summary>
+  <app-timetracking *ngFor="let item of items" [total]="item.total" [hours]="item.hours"
+    [header]="item.header" [timeframe]="timeframe" [background]="item.background">
+  </app-timetracking>
+</div>
+

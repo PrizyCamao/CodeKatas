@@ -1,0 +1,15 @@
+<div class="dashboard-wrapper">
+  <div class="user-data">
+    <app-user-data></app-user-data>
+  </div>
+  <div class="info-cards">
+    <app-info-card
+      *ngFor="let card of cards"
+      [bgColor]="card.bgColor"
+      [title]="card.title"
+      [hours]="card.hours"
+      [lastWeekHours]="card.lastWeekHours"
+      [icon]="card.icon">
+    </app-info-card>
+  </div>
+</div>

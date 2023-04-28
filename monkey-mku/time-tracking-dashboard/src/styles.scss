@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: #0D1323;
+  font-family: Rubik;
+}
+
+app-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
