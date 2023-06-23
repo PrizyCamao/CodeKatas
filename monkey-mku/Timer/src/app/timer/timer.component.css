@@ -1,0 +1,44 @@
+.timer-container {
+  border: 2px solid black;
+  background-color: beige;
+  width: 500px;
+  height: 250px;
+  padding: 20px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.timer-container > * {
+  display: flex;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+.timer {
+  grid-row: 2;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.menu {
+  grid-row: 2 / span 3;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+}
+
+.control {
+  grid-row: 3;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+button {
+  height: 2em;
+}

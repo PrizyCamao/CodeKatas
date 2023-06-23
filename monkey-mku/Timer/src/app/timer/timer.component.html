@@ -1,0 +1,13 @@
+<div class="timer-container">
+  <h2>Timer</h2>
+  <div class="timer">{{ time$ | async | date:'HH:mm:ss' }}</div>
+  <div class="menu">
+    <button (click)="add(30)">+ 30 Sec</button>
+    <button (click)="add(60)">+ 1 Min</button>
+    <button>Add Custom</button>
+  </div>
+  <div class="control">
+    <button (click)="start()">Start</button>
+    <button (click)="stop()">Stop</button>
+  </div>
+</div>
