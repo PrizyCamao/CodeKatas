@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="h1">
+    Timer
+  </div>
+  <div class="timer-container">
+    <div class="left">
+      <div class="timer">
+        {{ (timer$ | async) | date:'HH:mm:ss':'+0' }}
+      </div>
+      <div class="buttons-container">
+        <div (click)="startOrPause()">Start</div>
+        <div (click)="stop()">Stop</div>
+      </div>
+    </div>
+    <div class="right">
+      <div>+ 30 Sec</div>
+      <div>+ 1 Min</div>
+      <div>Add Custom</div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+.container {
+  height: 300px;
+  width: 500px;
+
+  border: 1px solid gray;
+
+  padding: 20px;
+
+  .h1 {
+    font-size: 2em;
+    font-weight: bold;
+  }
+
+  .timer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+}
